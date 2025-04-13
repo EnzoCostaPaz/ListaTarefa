@@ -1,0 +1,19 @@
+.Botao{
+    background: var(--verde);
+    border: 1px solid var(--preto);
+    padding: 0.25rem 0.75rem;
+    color: var(--cinza);
+}
+
+.Botao[tipo="primario"]{
+    background: var(--verde);
+}
+.Botao[tipo="primario"]:hover{
+    background-color: #3a4b1a;
+}
+.Botao[tipo="secundario"]{
+    background: var(--vermelho);
+}
+.Botao[tipo="secundario"]:hover{
+    background-color: #9b1818;
+}
